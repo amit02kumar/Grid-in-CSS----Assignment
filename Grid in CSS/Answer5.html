@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Answer 5</title>
+    <style>
+      .container {
+        width: 50%;
+        aspect-ratio: 3/2;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        padding: 10px;
+      }
+
+      .container > div {
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      .blue {
+        background-color: rgb(57, 196, 243);
+        width: 50%;
+        justify-self: right;
+      }
+
+      .aqua {
+        background-color: aqua;
+        width: 40%;
+      }
+
+      .green {
+        background-color: rgb(43, 249, 43);
+        width: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- justify-self:-
+The justify-self property aligns a grid item within its grid cell in the inline direction.
+For this property to have any alignment effect, the grid item need available space around itself in the inline direction.
+     -->
+
+    <!--
+
+  -->
+
+    <h2>justify-items vs. justify-self</h2>
+
+    <div class="container">
+      <div class="aqua">AQUA</div>
+      <div class="blue">BLUE</div>
+      <div class="green">GREEN</div>
+      <div class="aqua">AQUA</div>
+    </div>
+  </body>
+</html>
